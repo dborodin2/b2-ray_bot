@@ -146,7 +146,7 @@ resolve_domain_ip(){
     echo ""
 }
 
-SERVER_IP=$(get_server_ip)
+SERVER_IP="155.212.220.47"
 DOMAIN_IP=$(resolve_domain_ip)
 
 if [ -n "$SERVER_IP" ]; then
